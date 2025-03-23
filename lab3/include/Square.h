@@ -1,9 +1,9 @@
 #pragma once
 #include "Figure.h"
 
-class Rectangle : public Figure {
+class Square : public Figure {
 public:
-    Rectangle(double width, double height) : width(width), height(height) {}
+    Square(double sideLength) : sideLength(sideLength) {}
 
     std::vector<std::pair<double, double>> getVertices() const override;
     std::pair<double, double> getGeometricCenter() const override;
@@ -11,6 +11,5 @@ public:
     Figure* clone() const override;
 
 private:
-    double width;
-    double height;
+    double sideLength;
 };
