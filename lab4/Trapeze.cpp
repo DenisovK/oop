@@ -50,4 +50,5 @@ void Trapeze<T>::read(std::istream& is) {
        >> this->vertices[3]->first >> this->vertices[3]->second;
 }
 
+
 template class Trapeze<double>;
