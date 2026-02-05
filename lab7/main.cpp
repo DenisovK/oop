@@ -7,6 +7,7 @@
 
 using namespace std::chrono_literals;
 
+
 const std::size_t mapWidth = 50;
 const std::size_t mapHeight = 30;
 const std::size_t initialUnitsCount = 30;
